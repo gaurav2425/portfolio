@@ -29,12 +29,14 @@ function Footer() {
             size={40}
             style={{ width: "40px", height: "40px" }}
           ></AlternateEmailIcon>
-          <TwitterIcon style={{ width: "40px", height: "40px" }}></TwitterIcon>
+          <TwitterIcon
+            style={{ width: "40px", height: "40px", marginLeft: "10px" }}
+          ></TwitterIcon>
           <LinkedInIcon
-            style={{ width: "40px", height: "40px" }}
+            style={{ width: "40px", height: "40px", marginLeft: "10px" }}
           ></LinkedInIcon>
           <InstagramIcon
-            style={{ width: "40px", height: "40px" }}
+            style={{ width: "40px", height: "40px", marginLeft: "10px" }}
           ></InstagramIcon>
         </div>
       </div>
