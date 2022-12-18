@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
+  background-color: #FDFBEB;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-
+    font-family: 'Original Surfer', cursive;
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -87,12 +89,12 @@ body {
 
 body {
   color: rbg(--foreground-rgb);
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 a {
