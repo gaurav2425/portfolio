@@ -1,13 +1,16 @@
 .footer_container{
     background-image: url("https://i.ibb.co/VSyWs0z/Rectangle-44-1.png");
-    width: 100vw;
+    /* width: 110vw; */
     height: 400px;
-    background-size: contain;
+    background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     color: rgb(255, 255, 255);
+    /* padding: 0px -80px 0px 0px; */
+    object-fit: cover;
+object-position: 25% 25%;
 
 }
 .footer_container_left h1{
