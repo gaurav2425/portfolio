@@ -17,7 +17,9 @@ function Navbar() {
       </div>
 
       <div className={styles.navbar_right_icon}>
-        <DragHandleIcon></DragHandleIcon>
+        <DragHandleIcon
+          style={{ width: "40px", height: "40px" }}
+        ></DragHandleIcon>
       </div>
     </div>
   );

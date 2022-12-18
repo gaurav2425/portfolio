@@ -33,4 +33,7 @@
     .navbar_right_icon{
         display: block;
     }
+    .navbar_left h1{
+        font-size: 25px;
+    }
   }
