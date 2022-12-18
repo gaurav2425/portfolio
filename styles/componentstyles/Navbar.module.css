@@ -23,3 +23,14 @@
 .navbar_right ul li:hover{
     border-bottom: 3px solid #2D0F40;
 }
+.navbar_right_icon{
+    display: none;
+}
+@media screen and (max-width: 500px) {
+    .navbar_right {
+      display: none;
+    }
+    .navbar_right_icon{
+        display: block;
+    }
+  }

@@ -1,4 +1,5 @@
 import styles from "../../styles/componentstyles/Navbar.module.css";
+import DragHandleIcon from "@mui/icons-material/DragHandle";
 function Navbar() {
   return (
     <div className={styles.navbar_container}>
@@ -13,6 +14,10 @@ function Navbar() {
           <li>ABOUT</li>
           <li>CONTACT ME</li>
         </ul>
+      </div>
+
+      <div className={styles.navbar_right_icon}>
+        <DragHandleIcon></DragHandleIcon>
       </div>
     </div>
   );
