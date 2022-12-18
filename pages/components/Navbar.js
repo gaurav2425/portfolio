@@ -1,5 +1,7 @@
 import styles from "../../styles/componentstyles/Navbar.module.css";
 import DragHandleIcon from "@mui/icons-material/DragHandle";
+
+import IconButton from "@mui/material/IconButton";
 function Navbar() {
   return (
     <div className={styles.navbar_container}>
@@ -17,9 +19,15 @@ function Navbar() {
       </div>
 
       <div className={styles.navbar_right_icon}>
-        <DragHandleIcon
-          style={{ width: "40px", height: "40px" }}
-        ></DragHandleIcon>
+        <IconButton
+          onclick={() => {
+            console.log("Hello");
+          }}
+        >
+          <DragHandleIcon
+            style={{ width: "40px", height: "40px" }}
+          ></DragHandleIcon>
+        </IconButton>
       </div>
     </div>
   );
