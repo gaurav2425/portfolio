@@ -36,4 +36,7 @@
     .navbar_left h1{
         font-size: 25px;
     }
+    .navbar_right_icon{
+        margin-top: 8px;
+    }
   }
