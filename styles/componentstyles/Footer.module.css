@@ -50,4 +50,8 @@
     .footer_container_right p{
         width: 85vw;
     }
+    .footer_container_left h1{
+        font-size: 60px;
+        
+    }
   }
