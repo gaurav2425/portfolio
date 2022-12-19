@@ -12,6 +12,15 @@
     justify-content: space-between;
 }
 
+.bar_bottom{
+    width: 70vw;
+    margin-top: 25px;
+    /* display: none; */
+}
+
+.bar_bottom p{
+    color: rgb(38, 37, 37);
+}
 
 .bar_top_title{
 font-size: 25px;
@@ -20,7 +29,7 @@ font-size: 25px;
 .bar_top_duration{
     font-size: 15px;
     color: #410842;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .bar_top_tech_stack{
@@ -28,7 +37,7 @@ font-size: 25px;
     flex-direction: row;
     /* justify-content: center; */
     align-items: center;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .bar_top_tech_stack h1{
