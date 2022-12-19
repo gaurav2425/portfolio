@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../../styles/componentstyles/Bar.module.css";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
+import IconButton from "@mui/material/IconButton";
 function Bar({ title, techstack, duration }) {
   return (
     <div className={styles.bar_container}>
@@ -19,9 +20,15 @@ function Bar({ title, techstack, duration }) {
         </div>
 
         <div className={styles.bar_top_right}>
-          <ArrowDropUpIcon
-            style={{ width: "30px", height: "30px", color: "#000000" }}
-          ></ArrowDropUpIcon>
+          <IconButton
+            onClick={() => {
+              console.log("CLicked");
+            }}
+          >
+            <ArrowDropUpIcon
+              style={{ width: "30px", height: "30px", color: "#000000" }}
+            ></ArrowDropUpIcon>
+          </IconButton>
         </div>
       </div>
 
