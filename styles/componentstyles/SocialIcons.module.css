@@ -39,6 +39,12 @@
 
 
 @media screen and (max-width: 500px) {
+
+    .social_icons{
+        margin-top: 10px;
+      
+    }
+    
 .linkedin_icon{
     width: 20px;
     height: 20px;
