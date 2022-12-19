@@ -75,5 +75,8 @@ opacity: 0.949; */
         font-size: 50px;
         width: 250px;
     }
+    .overlay{
+        display: none;
+    }
     
   }

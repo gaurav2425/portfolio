@@ -1,9 +1,10 @@
-// import React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles/Welcomepage.module.css";
 // import MyImg from "../assets/myimg.jpg";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Bar from "./components/Bar";
 import ExperienceData from "../JsonData/Experiences.json";
 import ProjectData from "../JsonData/Projects.json";
@@ -17,8 +18,8 @@ function WelcomePage() {
       <div className={styles.intro_container}>
         <div className={styles.intro_container_sub}>
           <div className={styles.intro_left_container}>
-            <h1>Talks about Design, Tech, Product</h1>
-            <p>
+            <h1 data-aos="flip-up">Talks about Design, Tech, Product</h1>
+            <p data-aos="zoom-in">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
