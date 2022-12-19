@@ -146,6 +146,7 @@
     font-family: 'Original Surfer', cursive;
     color: white;
     font-size: 25px;
+    outline: none;
 }
 
 .hire_me_btn:hover{
@@ -164,6 +165,7 @@ cursor: pointer;
     background: none;
     margin-left: 10px;
     font-family: 'Original Surfer', cursive;
+    outline: none;
 }
 
 .resume_download_btn:hover{

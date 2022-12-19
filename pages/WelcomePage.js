@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 
 import Bar from "./components/Bar";
 import ExperienceData from "../JsonData/Experiences.json";
+import ProjectData from "../JsonData/Projects.json";
 import SocialIcons from "./components/SocialIcons";
 import Parallax1 from "./components/Parallax1";
 import Parallax2 from "./components/Parallax2";
@@ -91,7 +92,7 @@ function WelcomePage() {
         </div>
       </div>
       <div className={styles.bar}>
-        {ExperienceData.map((exp) => {
+        {ProjectData.map((exp) => {
           return (
             <Bar
               title={exp.title}
@@ -125,6 +126,24 @@ function WelcomePage() {
       <div className={styles.experiences_container}>
         <div className={styles.experiences}>
           <h1>Volunterring</h1>
+          <div className={styles.experience_border}></div>
+        </div>
+      </div>
+      <div className={styles.bar}>
+        {ExperienceData.map((exp) => {
+          return (
+            <Bar
+              title={exp.title}
+              duration={exp.duration}
+              techstack={exp.techstack}
+            ></Bar>
+          );
+        })}
+      </div>
+
+      <div className={styles.experiences_container}>
+        <div className={styles.experiences}>
+          <h1>Tech Stack</h1>
           <div className={styles.experience_border}></div>
         </div>
       </div>

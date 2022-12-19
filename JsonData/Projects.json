@@ -1,0 +1,54 @@
+[
+    {
+        "title":"PLAXBOX - REALTIME CHAT APPLICATION",
+        "duration":"OCT 2021- PRESENT",
+        "techstack":"REACT NATIVE, NODE JS, EXPRESS JS, MONGO DB, AMAZON WEB SERVICES, FIGMA",
+        "desc":[
+            {
+             "point":"🌟 Lorem ipsum dolr sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            },
+            {
+                "point":"🌟 Lorem ipsum dolr sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+               }
+        ]
+    },
+    {
+        "title":"NEWS AND BLOGS WEBSITE",
+        "duration":"OCT 2021- NOV 2022",
+        "techstack":"TECH STACK: REACT JS,  DJANGO REST FRAMEWORK",
+        "desc":[
+            {
+                "point":"🌟 Lorem ipsum dolr sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+               },
+               {
+                   "point":"🌟 Lorem ipsum dolr sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                }
+        ]
+    },
+    {
+        "title":"NETFLIX CLONE",
+        "duration":"OCT 2021- NOV 2022",
+        "techstack":"TECH STACK: REACT JS",
+        "desc":[
+            {
+                "point":"🌟 Lorem ipsum dolr sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+               },
+               {
+                   "point":"🌟 Lorem ipsum dolr sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                }
+        ]
+    },
+    {
+        "title":"LANDING PAGE OF PLAXBOX",
+        "duration":"OCT 2021- PRESENT",
+        "techstack":"TECH STACK:  REACT JS, FIGMA",
+        "desc":[
+            {
+                "point":"😎 Lorem ipsum dolr sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+               },
+               {
+                   "point":"🌟 Lorem ipsum dolr sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                }
+        ]
+    }
+]
