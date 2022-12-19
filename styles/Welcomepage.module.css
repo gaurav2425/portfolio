@@ -64,6 +64,11 @@
 
 
 @media screen and (max-width: 500px) {
+
+
+    
+
+
     .intro_container{
         padding-top: 10px;
         justify-content: start;
@@ -72,10 +77,11 @@
     }
     .intro_left_container h1{
         font-size: 40px;
-        /* width: 80vw; */
+        width: 95vw;
     }
     .intro_left_container p{
         font-size: 13px;
+        width: 95vw;
     }
 }
 
