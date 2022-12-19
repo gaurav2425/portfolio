@@ -42,7 +42,9 @@ font-size: 25px;
 
  @media screen and (max-width: 500px) {
     .bar_container{
-        width: 95vw;
-        
+        width: 95vw; 
     }
+    .bar_top_title{
+        font-size: 15px;
+        }
  }
