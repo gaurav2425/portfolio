@@ -125,3 +125,47 @@
     }
 }
 
+
+.buttons_container_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.buttons_container{
+    width: 80vw;
+    /* background-color: aqua; */
+    margin-top: 25px;
+}
+
+.hire_me_btn{
+    padding-top: 10px;
+    padding-bottom:10px ;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #290729;
+    font-family: 'Original Surfer', cursive;
+    color: white;
+    font-size: 25px;
+}
+
+.hire_me_btn:hover{
+cursor: pointer;
+}
+
+
+.resume_download_btn{
+    padding-top: 10px;
+    padding-bottom:10px ;
+    padding-left: 25px;
+    font-size: 25px;
+    padding-right: 25px;
+    /* background-color: #290729; */
+    border: 2px solid #290729;
+    background: none;
+    margin-left: 10px;
+    font-family: 'Original Surfer', cursive;
+}
+
+.resume_download_btn:hover{
+    cursor: pointer;
+    }

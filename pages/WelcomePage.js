@@ -140,6 +140,20 @@ function WelcomePage() {
         })}
       </div>
 
+      <div className={styles.buttons_container_main}>
+        <div className={styles.buttons_container}>
+          <button className={styles.hire_me_btn}>Hire Me</button>
+          <button className={styles.resume_download_btn}>
+            Download Resume
+          </button>
+        </div>
+      </div>
+
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
       <Footer></Footer>
     </div>
   );
