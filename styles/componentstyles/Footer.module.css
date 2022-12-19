@@ -4,7 +4,7 @@
     background-image: url("https://i.ibb.co/VSyWs0z/Rectangle-44-1.png");
     /* width: 110vw; */
     height: 400px;
-    background-size: cover;
+    background-size: contain;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
