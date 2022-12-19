@@ -43,5 +43,6 @@ font-size: 25px;
  @media screen and (max-width: 500px) {
     .bar_container{
         width: 95vw;
+        
     }
  }

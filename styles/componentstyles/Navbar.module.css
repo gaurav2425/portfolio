@@ -43,7 +43,14 @@
 
     .navbar_container{
         
-        padding: 10px;
+        padding: 5px;
        
     }
+
+   
+        .navbar_container{
+            /* width: 95vw; */
+            border-bottom: 1px solid rgb(221, 211, 211);
+        }
+    
   }
