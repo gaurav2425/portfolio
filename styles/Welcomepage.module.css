@@ -43,11 +43,11 @@
         display: flex;
         flex-direction: column;
         /* height: 500px; */
-        background-color: aqua;
-        padding-bottom: 50px;
+        /* background-color: aqua; */
+        /* padding-bottom: 50px; */
         justify-content: center;
         align-items: center;
-        padding-top: 30px;
+        /* padding-top: 30px; */
     }
     .intro_right_container{
         display: none;
