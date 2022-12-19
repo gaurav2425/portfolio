@@ -11,7 +11,7 @@
     color: rgb(255, 255, 255);
     /* padding: 0px -80px 0px 0px; */
     object-fit: cover;
-    object-position: 25% 25%;
+    /* object-position: 25% 25%; */
 
 }
 .footer_container_left h1{
@@ -48,6 +48,6 @@
         padding-left: 10%;
     }
     .footer_container_right p{
-        width: 90%;
+        width: 85vw;
     }
   }
