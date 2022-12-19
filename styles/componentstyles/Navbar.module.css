@@ -40,4 +40,10 @@
     .navbar_right_icon{
         margin-top: 8px;
     }
+
+    .navbar_container{
+        
+        padding: 10px;
+       
+    }
   }
