@@ -25,7 +25,7 @@ function Navbar() {
           }}
         >
           <DragHandleIcon
-            style={{ width: "40px", height: "40px" }}
+            style={{ width: "40px", height: "40px", color: "#000000" }}
           ></DragHandleIcon>
         </IconButton>
       </div>
