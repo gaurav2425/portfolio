@@ -9,6 +9,11 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 function Footer() {
   return (
     <div className={styles.footer_container}>
+      {/* <img
+        src="https://i.ibb.co/VSyWs0z/Rectangle-44-1.png"
+        className={styles.img}
+      ></img> */}
+      <div className={styles.overlay}>{/* <h1>hello</h1> */}</div>
       <div className={styles.footer_container_left}>
         <h1>Let's Work Together</h1>
       </div>

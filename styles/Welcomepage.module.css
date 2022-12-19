@@ -133,8 +133,9 @@
 }
 .buttons_container{
     width: 80vw;
-    /* background-color: aqua; */
     margin-top: 25px;
+    display: flex;
+    flex-direction: row;
 }
 
 .hire_me_btn{
@@ -164,8 +165,13 @@ cursor: pointer;
     border: 2px solid #290729;
     background: none;
     margin-left: 10px;
+   
     font-family: 'Original Surfer', cursive;
     outline: none;
+}
+
+.resume_download_btn h1{
+    font-size: 25px;
 }
 
 .resume_download_btn:hover{
