@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../../styles/componentstyles/Bar.module.css";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
-function Bar({ props }) {
+function Bar({ title, techstack, duration }) {
   return (
     <div className={styles.bar_container}>
       <div className={styles.bar_top}>
@@ -9,12 +9,12 @@ function Bar({ props }) {
           <h1 className={styles.bar_top_title}>
             {/* CAMPUS INNOVATIONS - FRONTEND REACT JS INTERN
              */}
-            {props.title}
+            {title}
           </h1>
-          <h2 className={styles.bar_top_duration}> {props.duration}</h2>
+          <h2 className={styles.bar_top_duration}> {duration}</h2>
           <div className={styles.bar_top_tech_stack}>
             <h1>Tech Stack:</h1>
-            <p>{props.techstack}</p>
+            <p>{techstack}</p>
           </div>
         </div>
 

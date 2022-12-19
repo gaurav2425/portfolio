@@ -126,7 +126,13 @@ function WelcomePage() {
       })} */}
       <div className={styles.bar}>
         {ExperienceData.map((exp) => {
-          return <Bar props={exp}></Bar>;
+          return (
+            <Bar
+              title={exp.title}
+              duration={exp.duration}
+              techstack={exp.techstack}
+            ></Bar>
+          );
         })}
 
         {/* <Bar></Bar> */}
