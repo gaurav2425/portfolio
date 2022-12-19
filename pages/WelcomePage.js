@@ -11,6 +11,8 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Tooltip from "@mui/material/Tooltip";
+import Bar from "./components/Bar";
+import ExperienceData from "../JsonData/Experiences.json";
 function WelcomePage() {
   return (
     <div>
@@ -117,6 +119,17 @@ function WelcomePage() {
             style={{ width: "300px" }}
           />
         </div>
+      </div>
+
+      {/* {ExperienceData.map((exp) => {
+        return <div>{exp.title}</div>;
+      })} */}
+      <div className={styles.bar}>
+        {ExperienceData.map((exp) => {
+          return <Bar props={exp}></Bar>;
+        })}
+
+        {/* <Bar></Bar> */}
       </div>
 
       <Footer></Footer>

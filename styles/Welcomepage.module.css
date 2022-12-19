@@ -30,6 +30,14 @@
     margin-left: -10px;
 }
 
+.bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px; */
+}
+
 @media screen and (max-width: 1000px) {
     .intro_container{
         display: flex;
@@ -72,3 +80,4 @@
         font-size: 13px;
     }
 }
+

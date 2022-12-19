@@ -1,0 +1,41 @@
+.bar_container{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    /* background-color: aqua; */
+    margin-top: 30px;
+}
+
+.bar_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.bar_top_title{
+font-size: 25px;
+}
+
+.bar_top_duration{
+    font-size: 15px;
+    color: #410842;
+    margin-top: 5px;
+}
+
+.bar_top_tech_stack{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 5px;
+}
+
+.bar_top_tech_stack h1{
+    font-size: 18px;
+ }
+
+ .bar_top_tech_stack p{
+    font-size: 18px;
+    margin-left: 10px;
+ }

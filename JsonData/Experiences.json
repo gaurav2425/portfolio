@@ -1,0 +1,28 @@
+[
+    {
+        "title":"CAMPUS INNOVATIONS - FRONTEND REACT JS INTERN",
+        "duration":"OCT 2021- AUG 2022",
+        "techstack":"REACT JS, FIGMA ,AWS",
+        "desc":[
+            {
+             "point":"Lorem ipsum dolr sit amet, consectetur adipiscing elit, sed do"
+            },
+            {
+                "point":"Lorem ipsum dolr sit amet, consectetur adipiscing elit, "
+               }
+        ]
+    },
+    {
+        "title":"Nyahari",
+        "duration":"OCT 2021- Present",
+        "techstack":"REACT JS, FIGMA ,AWS",
+        "desc":[
+            {
+             "point":"Lorem ipsum dolr sit amet, consectetur adipiscing elit, sed do"
+            },
+            {
+                "point":"Lorem ipsum dolr sit amet, consectetur adipiscing elit, "
+               }
+        ]
+    }
+]
