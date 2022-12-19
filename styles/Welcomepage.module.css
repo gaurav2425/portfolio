@@ -24,7 +24,15 @@
     padding-top: 60px;
 }
 
-
+@media screen and (max-width: 500px) {
+    .intro_left_container h1{
+        font-size: 30px;
+        /* width: 80vw; */
+    }
+    .intro_left_container p{
+        font-size: 15px;
+    }
+}
 
 @media screen and (max-width: 1000px) {
     .intro_container{
