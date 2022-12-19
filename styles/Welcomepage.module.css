@@ -24,12 +24,7 @@
 
     padding-top: 60px;
 }
-.social_icons{
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px;
-    margin-left: -10px;
-}
+
 
 .bar{
     display: flex;
