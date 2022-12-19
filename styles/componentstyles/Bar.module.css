@@ -39,3 +39,9 @@ font-size: 25px;
     font-size: 18px;
     margin-left: 10px;
  }
+
+ @media screen and (max-width: 500px) {
+    .bar_container{
+        width: 95vw;
+    }
+ }
