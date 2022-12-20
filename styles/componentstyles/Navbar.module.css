@@ -23,7 +23,7 @@
 }
 
 .navbar_right ul li:hover{
-    border-bottom: 3px solid #2D0F40;
+    border-bottom: 3px solid #ff8800;
 }
 .navbar_right_icon{
     display: none;

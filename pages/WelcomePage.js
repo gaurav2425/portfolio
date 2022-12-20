@@ -18,7 +18,14 @@ function WelcomePage() {
       <div className={styles.intro_container}>
         <div className={styles.intro_container_sub}>
           <div className={styles.intro_left_container}>
-            <h1 data-aos="flip-up">Talks about Design, Tech, Product</h1>
+            <h1 data-aos="flip-up">
+              Talks about <span className={styles.design_span}>"Design",</span>
+            </h1>
+            <h1>
+              <span className={styles.tech_span}>Tech</span>,
+              <span className={styles.product_span}>Product</span>
+            </h1>
+
             <p data-aos="zoom-in">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

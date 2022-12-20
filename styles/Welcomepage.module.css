@@ -7,9 +7,26 @@
 }
 .intro_left_container h1{
     font-size: 60px;
-    width: 650px;
+    width: 660px;
+    /* background-color: aqua; */
+}
+.design_span{
+    color: rgb(231, 6, 115);
+}
+.tech_span:hover{
+    /* color: rgb(255, 57, 35); */
+    color: rgb(231, 6, 115);
 }
 
+
+.product_span:hover{
+    /* color: rgb(15, 9, 198); */
+    color: rgb(231, 6, 115);
+}
+
+.tech_span_hover{
+    display: none;
+}
 .intro_right_container_img{
     /* border-radius: 400px; */
     width: 310px;

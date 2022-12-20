@@ -1,8 +1,9 @@
 import styles from "../../styles/componentstyles/Navbar.module.css";
 import DragHandleIcon from "@mui/icons-material/DragHandle";
-
+import { useRouter } from "next/router";
 import IconButton from "@mui/material/IconButton";
 function Navbar() {
+  const router = useRouter();
   return (
     <div className={styles.navbar_container}>
       <div className={styles.navbar_left}>
@@ -12,7 +13,7 @@ function Navbar() {
       <div className={styles.navbar_right}>
         <ul>
           <li>HOME</li>
-          <li>UI/UX Designs</li>
+          <li onClick={() => router.push("/UIUx")}>UI/UX Designs</li>
           <li>ABOUT</li>
           <li>CONTACT ME</li>
         </ul>

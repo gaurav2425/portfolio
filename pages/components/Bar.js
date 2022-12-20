@@ -48,6 +48,18 @@ function Bar({ title, techstack, duration }) {
 
       {open ? (
         <div className={styles.bar_bottom}>
+          <div className={styles.project_img_container}>
+            <img
+              className={styles.project_img}
+              src="/assets/parallax1.png"
+            ></img>
+            <img
+              className={styles.project_img}
+              src="/assets/parallax2.png"
+            ></img>
+            <h1>MORE PHOTOS +</h1>
+          </div>
+
           <p>
             Lorem ipsum dolr sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
