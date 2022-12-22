@@ -23,7 +23,8 @@
 }
 
 .navbar_right ul li:hover{
-    border-bottom: 3px solid #290729;
+    border-bottom: 3px solid rgb(231, 6, 115);
+    color: rgb(231, 6, 115);
 }
 .navbar_right_icon{
     display: none;
