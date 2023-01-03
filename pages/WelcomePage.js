@@ -34,8 +34,8 @@ function WelcomePage() {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur.
               <br></br>
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat.
+              {/* ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. */}
             </p>
 
             <div>
