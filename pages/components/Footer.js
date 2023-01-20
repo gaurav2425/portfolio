@@ -33,15 +33,19 @@ function Footer() {
           <AlternateEmailIcon
             size={40}
             style={{ width: "40px", height: "40px" }}
+            className={styles.email_icon}
           ></AlternateEmailIcon>
           <TwitterIcon
             style={{ width: "40px", height: "40px", marginLeft: "10px" }}
+            className={styles.twitter_icon}
           ></TwitterIcon>
           <LinkedInIcon
             style={{ width: "40px", height: "40px", marginLeft: "10px" }}
+            className={styles.linkedin_icon}
           ></LinkedInIcon>
           <InstagramIcon
             style={{ width: "40px", height: "40px", marginLeft: "10px" }}
+            className={styles.instagram_icon}
           ></InstagramIcon>
         </div>
       </div>

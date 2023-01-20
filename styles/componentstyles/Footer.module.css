@@ -80,3 +80,28 @@ opacity: 0.949; */
     }
     
   }
+
+
+  .email_icon:hover{
+    cursor: pointer;
+    top: -10px;
+    position: relative;
+  }
+
+  .instagram_icon:hover{
+    cursor: pointer;
+    top: -10px;
+    position: relative;
+  }
+
+  .twitter_icon:hover{
+    cursor: pointer;
+    /* color: rgb(29, 161, 242); */
+    top: -10px;
+    position: relative;
+  }
+  .linkedin_icon:hover{
+    cursor: pointer;
+    top: -10px;
+    position: relative;
+  }

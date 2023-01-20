@@ -151,7 +151,7 @@ function WelcomePage() {
 
       <div className={styles.experiences_container}>
         <div className={styles.experiences}>
-          <h1>Tech</h1>
+          <h1>Tech Stack</h1>
           <div className={styles.experience_border}></div>
         </div>
       </div>
