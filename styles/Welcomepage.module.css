@@ -8,6 +8,7 @@
 .intro_left_container h1{
     font-size: 60px;
     width: 660px;
+    margin-left: -10px;
     /* background-color: aqua; */
 }
 .design_span{
@@ -36,9 +37,9 @@
 .intro_left_container p{
     width: 700px;
     font-size: 20px;
-    color: gray;
+    color: rgb(48, 47, 47);
     margin-top: 10px;
-    margin-left: 15px;
+    margin-left: 0px;
 }
 
 .intro_container_sub{

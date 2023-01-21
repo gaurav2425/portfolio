@@ -23,7 +23,7 @@ function WelcomePage() {
             </h1>
             <h1>
               <span className={styles.tech_span}>Tech</span>,
-              <span className={styles.product_span}>Product</span>
+              <span className={styles.product_span}> Product</span>
             </h1>
 
             <p data-aos="zoom-in">
