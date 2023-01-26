@@ -3,7 +3,7 @@ import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import IconButton from "@mui/material/IconButton";
 import { useState } from "react";
-function Bar({ title, techstack, duration }) {
+function Bar({ title, techstack, duration, description }) {
   const [open, setOpen] = useState(false);
   return (
     <div className={styles.bar_container}>
@@ -60,14 +60,10 @@ function Bar({ title, techstack, duration }) {
             <h1>MORE PHOTOS +</h1>
           </div>
 
-          <p>
-            Lorem ipsum dolr sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-          </p>
+          {description.map((desc, index) => {
+            return <p key={index}>{desc}</p>;
+          })}
+
           <br></br>
           <p>
             Lorem ipsum dolr sit amet, consectetur adipiscing elit, sed do

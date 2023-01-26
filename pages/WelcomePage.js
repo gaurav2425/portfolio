@@ -27,15 +27,17 @@ function WelcomePage() {
             </h1>
 
             <p data-aos="zoom-in">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
-              <br></br>
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat.
+              As a full stack developer, I have a wide range of skills and
+              knowledge that allow you to work on both the front-end and
+              back-end of a website and application. This includes proficiency
+              in languages such as HTML, CSS, JavaScript for the front-end, as
+              well as languages like Node js, for the back-end. I also have
+              knowledge of databases, server-side technologies, and web
+              architecture. You are able to design, build, and maintain a
+              complete web application. Additionally, I have knowledge of and
+              experience with several development tools such as Git, Github and
+              Figma. I am a developer who can work on different project and
+              technologies
             </p>
 
             <div>
@@ -62,12 +64,14 @@ function WelcomePage() {
         </div>
       </div>
       <div className={styles.bar}>
-        {ExperienceData.map((exp) => {
+        {ExperienceData.map((exp, index) => {
           return (
             <Bar
               title={exp.title}
+              key={index}
               duration={exp.duration}
               techstack={exp.techstack}
+              description={exp.desc}
             ></Bar>
           );
         })}
@@ -80,12 +84,14 @@ function WelcomePage() {
         </div>
       </div>
       <div className={styles.bar}>
-        {ExperienceData.map((exp) => {
+        {ExperienceData.map((exp, index) => {
           return (
             <Bar
               title={exp.title}
+              key={index}
               duration={exp.duration}
               techstack={exp.techstack}
+              description={exp.desc}
             ></Bar>
           );
         })}
@@ -100,12 +106,14 @@ function WelcomePage() {
         </div>
       </div>
       <div className={styles.bar}>
-        {ProjectData.map((exp) => {
+        {ProjectData.map((exp, index) => {
           return (
             <Bar
               title={exp.title}
+              key={index}
               duration={exp.duration}
               techstack={exp.techstack}
+              description={exp.desc}
             ></Bar>
           );
         })}
@@ -118,12 +126,14 @@ function WelcomePage() {
         </div>
       </div>
       <div className={styles.bar}>
-        {ExperienceData.map((exp) => {
+        {ExperienceData.map((exp, index) => {
           return (
             <Bar
               title={exp.title}
+              key={index}
               duration={exp.duration}
               techstack={exp.techstack}
+              description={exp.desc}
             ></Bar>
           );
         })}
@@ -138,12 +148,14 @@ function WelcomePage() {
         </div>
       </div>
       <div className={styles.bar}>
-        {ExperienceData.map((exp) => {
+        {ExperienceData.map((exp, index) => {
           return (
             <Bar
               title={exp.title}
+              key={index}
               duration={exp.duration}
               techstack={exp.techstack}
+              description={exp.desc}
             ></Bar>
           );
         })}
@@ -156,12 +168,14 @@ function WelcomePage() {
         </div>
       </div>
       <div className={styles.bar}>
-        {ExperienceData.map((exp) => {
+        {ExperienceData.map((exp, index) => {
           return (
             <Bar
               title={exp.title}
+              key={index}
               duration={exp.duration}
               techstack={exp.techstack}
+              description={exp.desc}
             ></Bar>
           );
         })}

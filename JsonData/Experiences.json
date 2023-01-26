@@ -4,25 +4,19 @@
         "duration":"OCT 2021- AUG 2022",
         "techstack":"REACT JS, FIGMA ,AWS",
         "desc":[
-            {
-             "point":"Lorem ipsum dolr sit amet, consectetur adipiscing elit, sed do"
-            },
-            {
-                "point":"Lorem ipsum dolr sit amet, consectetur adipiscing elit, "
-               }
+            "Delivered the feature of Forms for Learning Management System software. Integrated Frontend with Backend using Api's",
+            "Experienced Agile Software development with scrum for quick software release"
+            
         ]
     },
     {
         "title":"Nyahari",
-        "duration":"OCT 2021- Present",
+        "duration":"OCT 2021- Dec 2022",
         "techstack":"REACT JS, FIGMA ,AWS",
         "desc":[
-            {
-             "point":"Lorem ipsum dolr sit amet, consectetur adipiscing elit, sed do"
-            },
-            {
-                "point":"Lorem ipsum dolr sit amet, consectetur adipiscing elit, "
-               }
+           "Focused on Full Stack Development and delivered whole backend and Design of application",
+            "Configured and deployed the app on Cloud for scalability and cost effectiveness"
+               
         ]
     }
 ]

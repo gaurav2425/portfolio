@@ -41,6 +41,7 @@ function SocialIcons() {
           <IconButton style={{ marginLeft: "0px" }}>
             <TwitterIcon className={styles.twitter_icon} />
           </IconButton>
+          +
         </Link>
       </Tooltip>
 
