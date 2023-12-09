@@ -168,7 +168,7 @@ function WelcomePage() {
         </div>
       </div>
       <div className={styles.bar}>
-        {ExperienceData.map((exp, index) => {
+        {/* {ExperienceData.map((exp, index) => {
           return (
             <Bar
               title={exp.title}
@@ -178,7 +178,7 @@ function WelcomePage() {
               description={exp.desc}
             ></Bar>
           );
-        })}
+        })} */}
       </div>
 
       <div className={styles.buttons_container_main}>

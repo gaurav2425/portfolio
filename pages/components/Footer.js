@@ -20,12 +20,16 @@ function Footer() {
 
       <div className={styles.footer_container_right}>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+          If you're looking for a motivated and skilled individual to
+          collaborate on your next project or if you have an exciting
+          opportunity where my expertise could be valuable, I'd love to discuss
+          further! Let's join forces to create something exceptional. Feel free
+          to reach out, and let's explore collaboration possibilities together.
+          <br></br>
+          Feel free to adjust this description to better reflect your skills,
+          preferences, and the type of projects you're seeking to collaborate
+          on. Tailoring it to your specific expertise and desired collaborations
+          will increase the chances of attracting suitable opportunities.
         </p>
         <h1 className={styles.connect_social}>Connect Social</h1>
 
