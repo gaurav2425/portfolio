@@ -20,16 +20,24 @@ function Footer() {
 
       <div className={styles.footer_container_right}>
         <p>
-          If you're looking for a motivated and skilled individual to
-          collaborate on your next project or if you have an exciting
-          opportunity where my expertise could be valuable, I'd love to discuss
-          further! Let's join forces to create something exceptional. Feel free
-          to reach out, and let's explore collaboration possibilities together.
+          I am a highly proficient full-stack application developer with
+          extensive experience in building powerful, scalable, and user-focused
+          applications. My skill set covers the entire development process, from
+          designing engaging, intuitive front-end interfaces to constructing
+          reliable, high-performance back-end systems. I’m adept at working with
+          a variety of technologies and frameworks, enabling me to deliver
+          complete, end-to-end solutions that meet both business needs and user
+          expectations. I excel at problem-solving and optimizing code for speed
+          and efficiency, always aiming to exceed project goals.
           <br></br>
-          Feel free to adjust this description to better reflect your skills,
-          preferences, and the type of projects you're seeking to collaborate
-          on. Tailoring it to your specific expertise and desired collaborations
-          will increase the chances of attracting suitable opportunities.
+          My approach is grounded in a deep understanding of both technical and
+          user-centric principles, allowing me to bridge the gap between complex
+          backend processes and smooth, responsive user interfaces. With a
+          strong commitment to quality and innovation, I create applications
+          that are not only functional and efficient but also provide an
+          exceptional user experience. My work is driven by a passion for
+          technology and a relentless pursuit of excellence in every project I
+          undertake.
         </p>
         <h1 className={styles.connect_social}>Connect Social</h1>
 
